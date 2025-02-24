@@ -1,0 +1,17 @@
+.container{
+    /* background-color: var(--main-color); */
+    position: fixed;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.container ul{
+    display: flex;
+    color: var(--light-color);
+}
+.container ul li{
+    padding: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
