@@ -65,7 +65,7 @@ h3{
   font-size: var(--font-size-l); 
 }
 p{
-  font-size: var(--font-size-s); 
+  font-size: var--font-size-s(); 
 }
 .weight-regular{
   font-weight: 400;
@@ -80,7 +80,41 @@ p{
   font-weight: 700;
 }
 
+/* Button */
+button.btn-dark{
+  background:linear-gradient(to left ,var(--third-color) 10%,var(--second-color) 80%) ;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--light-color);
+  border-radius: 10px;
+  text-transform: capitalize;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+}
+button.btn-dark::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--second-color);
+  box-shadow: 0px 0px 10px var(--second-color);
+  transition: 0.5s;
 
+}
+button.btn-dark:hover{
+  /* background:linear-gradient(to left ,var(--third-color) 10%,var(--light-color) 80%) ; */
+  color : var(--dark-color)
+}
+button.btn-dark:hover::after{
+  left: 100%;
+}
 /* Form Styles */
 form input{
   background-color: var(--light-color);
