@@ -14,6 +14,7 @@
 
 .containerFirst,.containerThird {
     width: 300px;
+    /* color: var(--temp-color); */
 }
 .containerSecond{
     flex: 1; 
@@ -26,6 +27,7 @@
 .containerThird p{
     font-weight: 600;
     text-transform: capitalize;
+    font-size: var(--font-size-s);
 }
 .first{
 

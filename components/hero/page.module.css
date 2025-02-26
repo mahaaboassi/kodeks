@@ -1,0 +1,35 @@
+.container{
+    width: 100%;
+    min-height: 600px;
+    max-height: 600px;
+    object-fit: contain;
+    /* background-image: linear-gradient(to right,  #5f99d2b7 10% , #5f99d253 80%), url("/Frame 3.png"); */
+    background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d200 80%), url("/Frame 8.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0px 0px 20px var(--second-color);
+
+}
+.container h1{
+    text-shadow: 0px 0px 10px white;
+    color: var(--light-color);
+    font-size: var(--font-size-3xl);
+    text-transform: capitalize;
+}
+.container h2{
+    color: var(--light-color) ;
+    font-size: var(--font-size-xl);
+    text-transform: capitalize;
+    width: 50%;
+}
+.container p{
+    color: var(--light-color) ;
+    font-size: var(--font-size-s);
+    text-transform: capitalize;
+}
+.container p span{
+   
+    color: var(--temp-color);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+}

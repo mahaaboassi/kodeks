@@ -1,0 +1,28 @@
+.content{
+    height: 350px;
+    background: var(--third-color); 
+    color: var(--main-color);
+    font-size: var(--font-size-l);
+    text-align: center;
+    font-weight: 600;
+    
+}
+.temp{
+    clip-path: ellipse(120% 100% at 50% 100%);
+    position: relative;
+    margin-top: -150px;
+    background-color: var(--light-color);
+    height: 400px;
+    z-index: 5;
+}
+.blocks{
+    
+   margin-top: -500px;
+   position: relative;
+   z-index: 10;
+    
+}
+.card{
+    box-shadow: 0 0 5px var(--third-color);
+    border-radius: 12px;
+}

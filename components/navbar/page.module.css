@@ -45,8 +45,31 @@
     padding: 10px;
     font-weight: 600;
     cursor: pointer;
+    position: relative;
+    transition: 0.3s;
 }
+.container ul li:hover,.containerScrolled ul li:hover{
+    color: var(--temp-color);
+}
+.container ul li.activeLink:hover{
+    color: var(--main-color); 
+}
+.containerScrolled ul li.activeLink:hover{
+    color: var(--light-color); 
+}
+.container ul li.activeLink::before,.containerScrolled ul li.activeLink::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    background-color: var(--main-color);
+    right: 0;
 
+}
+.containerScrolled ul li.activeLink::before{
+    background-color: var(--light-color);
+}
 .menuIconDiv {
     position: relative;
     width: 16px;
