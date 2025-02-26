@@ -110,7 +110,7 @@ const Footer = ()=>{
                 <div className={`py-3`}>Learn more about <strong>At KODEKS</strong></div>
                 <div>© 2025 by Ariz Global</div>
             </div>
-            <div className={`grid-cols-1 md:grid grid-cols-3 gap-2 ${Style.containerSecond}`}>
+            <div className={`grid-cols-1 sm:grid grid-cols-3 gap-2 ${Style.containerSecond}`}>
                 <div className={`${Style.first}`}>
                     <h4 className="mb-5">Our Company</h4>
                     <ul>{pages.map((e,idx)=><li key={`Pages_Footer_${e.name}_${idx}`} className="mb-2">{e.name}</li>)}</ul>
