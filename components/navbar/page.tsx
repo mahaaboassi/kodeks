@@ -32,12 +32,18 @@ const Navbar = ()=>{
           window.removeEventListener('scroll', handleScroll);
         };
       }, []);
-    return <div className={` ${scrolled?Style.containerScrolled:Style.container}  px-16`}>
+      const [isOpen , setIsOpen] = useState<boolean>(false)
+    return <div className={` ${scrolled?Style.containerScrolled:Style.container} px-8 md:px-16 `}>
         <div>
             {scrolled?svgLight:svg}
         </div>
         <div className="flex items-center">
-            <ul>
+           <div onClick={()=>setIsOpen(!isOpen)} className={`${Style.menuIconDiv} ${isOpen&& Style.open} md:hidden`}>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul className={`${isOpen&& Style.openMenu} `}>
                 <li> About Us </li>
                 <li> Solutions</li>
                 <li> Insights</li>

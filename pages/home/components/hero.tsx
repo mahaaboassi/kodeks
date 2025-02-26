@@ -52,16 +52,17 @@ const HeroSection = ()=>{
 >
     {info.map((e,idx)=><SwiperSlide key={`PROMPTS_${e.title}_${idx}`}>
         <div >
-            <div className={`${Style[e.className]} pt-20`}>
-                <div className="grid grid-cols-2 ">
+            <div className={`${Style[e.className]} pt-14 sm:pt-28`}>
+                <div className="grid grid-cols-1  ">
                     <div >
-                        <div  className="flex flex-col justify-center pt-20 px-16">
+                        <div  className="flex flex-col justify-center pt-20 px-8 md:px-16">
                             <h1>{e.title}</h1>
                             <h2>{e.description}</h2>
-                            <div className={`${Style.cta} py-5 `}>
-                                {e.cta}
+                            <div className={`${Style.cta} py-5 items-center gap-4`}>
+                                <button className="btn-light"> {e.cta}</button>
+                                
                                 <span><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                    <path d="M8.91 19.92L15.43 13.4C16.2 12.63 16.2 11.37 15.43 10.6L8.91 4.07996" stroke="#171717" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M8.91 19.92L15.43 13.4C16.2 12.63 16.2 11.37 15.43 10.6L8.91 4.07996" stroke="#171717" strokeWidth="1.5" strokeMiterlimit="10" strokeLinecap="round" strokeLinejoin="round"/>
                                     </svg></span>
                             </div>
                         </div>

@@ -11,7 +11,7 @@
     max-height: 600px;
     object-fit: contain;
     /* background-image: linear-gradient(to right,  #5f99d2b7 10% , #5f99d253 80%), url("/Frame 3.png"); */
-    background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d223 80%), url("/Frame 3.png");
+    background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d200 80%), url("/Frame 8.png");
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px var(--second-color);
@@ -23,7 +23,7 @@
     max-height: 600px;
     object-fit: contain;
     /* background-image: linear-gradient(to right,  #5f99d2b7 10% , #5f99d253 80%), url("/Frame 3.png"); */
-    background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d223 80%), url("/Frame 3.png");
+    background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d200 80%), url("/Frame 6.png");
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px var(--second-color);
@@ -34,7 +34,7 @@
     max-height: 600px;
     object-fit: contain;
     /* background-image: linear-gradient(to right,  #5f99d2b7 10% , #5f99d253 80%), url("/Frame 3.png"); */
-    background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d223 80%), url("/Frame 3.png");
+    background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d200 80%), url("/Frame 7.png");
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px var(--second-color);
@@ -45,7 +45,7 @@
     max-height: 600px;
     object-fit: contain;
     /* background-image: linear-gradient(to right,  #5f99d2b7 10% , #5f99d253 80%), url("/Frame 3.png"); */
-    background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d223 80%), url("/Frame 3.png");
+    background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d200 80%), url("/Frame 10.png");
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px var(--second-color);
@@ -53,9 +53,12 @@
 .containerHero h1,.containerHero1 h1,.containerHero2 h1,.containerHero3 h1{
     text-shadow: 0px 0px 10px white;
     color: var(--light-color);
+    font-size: var(--font-size-3xl);
 }
 .containerHero h2,.containerHero1 h2,.containerHero2 h2,.containerHero3 h2{
     color: var(--light-color) ;
+    font-size: var(--font-size-xl);
+    width: 50%;
 }
 .cta{
     font-size: var(--font-size-s);
@@ -63,8 +66,18 @@
     color: var(--light-color);
     position: relative;
     /* padding-left: 10px; */
-    cursor: pointer;
     display: flex;
+}
+.cta span{
+    background-color: var(--main-color);
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 5px var(--light-color);
 }
 /* .cta::before{
     content: "";
@@ -82,9 +95,7 @@
 .cta span svg path{
     stroke: var(--light-color);
 }
-.cta:hover span{
-    margin-left: 5px;
-}
+
 /* Services Section */
 .containerServices{
 
@@ -121,6 +132,7 @@
 .video iframe{
     width: 80%;
     height: 500px;
+    border-radius: 12px;
 }
 .left{
     width: 200px;
@@ -195,11 +207,91 @@
     font-size: var(--font-size-xxs);
     background-color: var(--second-color);
     border-radius: 12px;
-    padding: 5px;
+    padding: 5px 10px;
     color: var(--light-color);
     width: fit-content;
 }
 .containerBlogs p{
     font-size: var(--font-size-xs);
 
+}
+/* Conatct us Section */
+.containerContactUs{
+    background: linear-gradient(  var(--second-color),var(--main-color));
+    /* background: var(--main-color); */
+    color: var(--light-color);
+}
+.containerContactUs h5{
+    font-size: var(--font-size-xxl);
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.containerContactUs button{
+    font-size: var(--font-size-xl);
+}
+@media (max-width:1280px){
+    /* Services section */
+    .containerServices{
+        height: 600px;
+    }
+}
+@media (max-width:768px) {
+    /* hero Section */
+    .containerHero,.containerHero1,.containerHero2,.containerHero3{
+        width: 100%;
+        min-height: 500px;
+        max-height: 500px;
+        object-fit: contain;
+        /* background-image: linear-gradient(to right,  #5f99d2b7 10% , #5f99d253 80%), url("/Frame 3.png"); */
+        background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d223 80%), url("/Frame 3.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        box-shadow: 0px 0px 20px var(--second-color);
+    
+    }
+
+    .containerHero h1,.containerHero1 h1,.containerHero2 h1,.containerHero3 h1{
+        font-size: var(--font-size-xxl);
+    }
+    .containerHero h2,.containerHero1 h2,.containerHero2 h2,.containerHero3 h2{
+        color: var(--light-color) ;
+        font-size: var(--font-size-xl);
+        width: 60%;
+    }
+    /* about us */
+    .video iframe{
+        width: 100%;
+        height: 300px;
+    }
+    /* Services section */
+    .containerServices{
+        position: relative; 
+        height: unset;
+        padding-bottom: 80px;  
+    }
+    .contentServices{
+        position: relative;
+        margin-top: -50px; 
+    }
+    /* solution section */
+    .containerSolutions img{
+        width: 100%;
+        
+    }
+
+}
+
+@media (max-width:350px) {
+    /* hero section */
+    .containerHero h2,.containerHero1 h2,.containerHero2 h2,.containerHero3 h2{
+        width: 80%;
+    }
+    /* Contact Section */
+    .containerContactUs h5{
+        font-size: var(--font-size-xl);
+    }
+    .containerContactUs button{
+        font-size: var(--font-size-l);
+    }
+    
 }

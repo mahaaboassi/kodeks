@@ -1,11 +1,42 @@
 .container{
-    background-color: var(--main-color);
-    color: var(--light-color);
+    /* background-color: var(--main-color); */
+    color: var(--main-color);
 }
 .container h4{
     font-weight: 600;
     font-size: var(--font-size-s);
+    
 }
+.containerContent {
+    display: flex;
+    gap: 50px;
+}
+
+.containerFirst,.containerThird {
+    width: 300px;
+}
+.containerSecond{
+    flex: 1; 
+}
+.containerThird {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.containerThird p{
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.first{
+
+}
+.second{
+    
+}
+.third{
+    
+}
+
 .container li{
     cursor: pointer;
     position: relative;
@@ -19,9 +50,34 @@
     width: 0;
     height: 3px;
     transition: 0.3s;
-    background: var(--light-color);
+    background: var(--main-color);
 
 }
 .container li:hover::after{
     width: 10%;
+}
+.container .icons svg path{
+    fill: var(--main-color)
+}
+@media (min-width:1024px)  and (max-width:1280px) {
+    .containerFirst,.containerThird {
+        width: 200px;
+    }
+}
+@media (max-width:1024px) {
+    .containerContent{
+        display: block; 
+    }
+    .containerFirst{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .containerThird {
+        display: flex;
+        flex-direction: unset;
+        justify-content: space-between;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    
 }

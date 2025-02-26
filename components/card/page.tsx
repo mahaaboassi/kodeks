@@ -1,3 +1,5 @@
+"use client"
+import { useEffect, useState } from "react";
 import Style from "./page.module.css"
 
 type InfoProps = {
@@ -9,6 +11,13 @@ type InfoProps = {
 }
 
 const CardServices =({icon,title,description,keywords}:InfoProps)=>{
+    const [windowWidth, setWindowWidth] = useState(0);
+
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            setWindowWidth(window.innerWidth);
+        }
+    }, []);
   return <div className={`${Style.container} p-5`}>
         <div className="flex gap-2">
             <div  className={`${Style.containerSvg} `}>
@@ -18,7 +27,7 @@ const CardServices =({icon,title,description,keywords}:InfoProps)=>{
         </div>
         
         
-        <p className="py-3">{description}</p>
+        <p className="py-3">{windowWidth <500?description.substring(0,300)+"...":description}</p>
         <ul className="gap-2">
             {keywords.map((e,idx)=><li key={`Service_${e}_${idx}`}>{e}</li>)}
         </ul>

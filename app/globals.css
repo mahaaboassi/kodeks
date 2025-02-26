@@ -83,7 +83,7 @@ p{
 /* Button */
 button.btn-dark{
   background:linear-gradient(to left ,var(--third-color) 10%,var(--second-color) 80%) ;
-  padding: 10px;
+  padding: 10px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -99,13 +99,14 @@ button.btn-dark::after{
   content: "";
   position: absolute;
   height: 100%;
-  left: 0;
+  left: -5px;
   top: 0;
   bottom: 0;
   width: 2px;
   background-color: var(--second-color);
   box-shadow: 0px 0px 10px var(--second-color);
   transition: 0.5s;
+  
 
 }
 button.btn-dark:hover{
@@ -113,6 +114,42 @@ button.btn-dark:hover{
   color : var(--dark-color)
 }
 button.btn-dark:hover::after{
+  left: 100%;
+}
+/* btn-light */
+button.btn-light{
+  background: var(--light-color)  ;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-color);
+  border-radius: 10px;
+  text-transform: capitalize;
+  transition: 0.5s;
+  position: relative;
+  overflow: hidden;
+  outline: none;
+}
+button.btn-light::after{
+  content: "";
+  position: absolute;
+  height: 100%;
+  left: -5px;
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background-color: var(--second-color);
+  box-shadow: 0px 0px 10px var(--second-color);
+  transition: 0.5s;
+  
+
+}
+button.btn-light:hover{
+  /* background:linear-gradient(to left ,var(--third-color) 10%,var(--light-color) 80%) ; */
+  color : var(--dark-color)
+}
+button.btn-light:hover::after{
   left: 100%;
 }
 /* Form Styles */

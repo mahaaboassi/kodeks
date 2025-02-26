@@ -46,3 +46,74 @@
     font-weight: 600;
     cursor: pointer;
 }
+
+.menuIconDiv {
+    position: relative;
+    width: 16px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.menuIconDiv div {
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: var(--main-color);
+    border-radius: 2px;
+    transition: all 0.5s ease-in-out;
+}
+
+.menuIconDiv div:nth-child(1) {
+    top: 2px;
+}
+
+.menuIconDiv div:nth-child(2) {
+    top:6px;
+}
+
+.menuIconDiv div:nth-child(3) {
+    top: 11px;
+}
+
+/* Active (Close Icon) State */
+.open div:nth-child(1) {
+    transform: rotate(45deg);
+    top: 5px;
+}
+
+.open div:nth-child(2) {
+    opacity: 0; /* Hide the middle bar */
+}
+
+.open div:nth-child(3) {
+    transform: rotate(-45deg);
+    top: 5px;
+}
+@media (max-width:768px) {
+
+    .container ul,.containerScrolled ul{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: -500px;
+        max-height: 0; /* Use max-height for smooth animation */
+        transition: max-height 0.5s ease-in-out; 
+        overflow: hidden;
+    }
+    .container ul.openMenu,.containerScrolled ul.openMenu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 55px;
+        background-color: rgba(255, 255, 255, 0.84);
+        color: var(--main-color);
+        box-shadow: -3px 2px 6px 0px var(--third-color);
+        max-height: 170px;
+    }
+    .containerScrolled ul.openMenu{
+        top: 65px;
+    }
+}

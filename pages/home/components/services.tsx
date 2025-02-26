@@ -17,10 +17,9 @@ const Services = ()=>{
         link: "https://www.example.com/reports"
     }]
     return <div className={`${Style.containerServices} py-10`}>
-        <div className={`${Style.contentServices} grid grid-cols-2`}>
+        <div className={`${Style.contentServices} grid grid-cols-1 md:grid-cols-2 gap-5 md:gap-0`}>
           {data.map((e,idx)=>(<div className="flex justify-center" key={`Services_Section_${e.title}_${idx}`}>
-            <CardServices  icon={e.icon} keywords={e.keywords} title={e.title} description={e.description}
-                                 />
+            <CardServices  icon={e.icon} keywords={e.keywords} title={e.title} description={e.description} />
             </div>))}
         </div>
         
