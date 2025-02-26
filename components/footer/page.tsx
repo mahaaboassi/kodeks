@@ -87,7 +87,7 @@ const Footer = ()=>{
                     <div className={`flex gap-8 ${Style.icons}`}>{icons.map((e,idx)=><div key={`Support_Footer_${e.name}_${idx}`} className="flex items-center justify-center">{e.icon}</div>)}</div>
                 </div>
             </div>
-            <div className={`grid grid-cols-3 gap-2 ${Style.containerSecond}`}>
+            <div className={`grid grid-cols-1 sm:grid-cols-3 gap-2 ${Style.containerSecond}`}>
                 <div className={`${Style.first}`}>
                     <h4 className="mb-5">Our Company</h4>
                     <ul>{pages.map((e,idx)=><li key={`Pages_Footer_${e.name}_${idx}`} className="mb-2">{e.name}</li>)}</ul>
