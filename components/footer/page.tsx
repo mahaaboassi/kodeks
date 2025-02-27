@@ -72,8 +72,8 @@ const Footer = ()=>{
         {windowWidth<1024?<div className={`${Style.containerContent}`}>
             <div className={`${Style.containerFirst}`}>
                 <div className="mb-1">{svg}</div>
-                <p className="pr-2"><strong>At KODEKS</strong>,we empower businesses with innovative ICT solutions, combining expertise and technology to drive efficiency, innovation, and maximize ROI</p>
-                <div className={`py-3`}>Learn more about <strong>At KODEKS</strong></div>
+                <p className="pr-2">At KODEKS,we empower businesses with innovative ICT solutions, combining expertise and technology to drive efficiency, innovation, and maximize ROI</p>
+                <div className={`py-3`}>Learn more about At KODEKS</div>
                 <div>© 2025 by Ariz Global</div>
             </div>
             
@@ -106,8 +106,8 @@ const Footer = ()=>{
         </div>:<div className={`${Style.containerContent}`}>
             <div className={`${Style.containerFirst}`}>
                 <div className="mb-1">{svg}</div>
-                <p className="pr-2"><strong>At KODEKS</strong>,we empower businesses with innovative ICT solutions, combining expertise and technology to drive efficiency, innovation, and maximize ROI</p>
-                <div className={`py-3`}>Learn more about <strong>At KODEKS</strong></div>
+                <p className="pr-2">At KODEKS,we empower businesses with innovative ICT solutions, combining expertise and technology to drive efficiency, innovation, and maximize ROI</p>
+                <div className={`py-3`}>Learn more about At KODEKS</div>
                 <div>© 2025 by Ariz Global</div>
             </div>
             <div className={`grid-cols-1 sm:grid grid-cols-3 gap-2 ${Style.containerSecond}`}>

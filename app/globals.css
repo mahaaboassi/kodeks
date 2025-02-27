@@ -83,7 +83,7 @@ p{
 
 /* Button */
 button.btn-dark{
-  background:linear-gradient(to left ,var(--third-color) 10%,var(--second-color) 80%) ;
+  background:var(--second-color);
   padding: 10px 20px;
   display: flex;
   justify-content: center;
@@ -104,7 +104,7 @@ button.btn-dark::after{
   top: 0;
   bottom: 0;
   width: 2px;
-  background-color: var(--second-color);
+  background-color: var(--light-color);
   box-shadow: 0px 0px 10px var(--second-color);
   transition: 0.5s;
   
@@ -197,7 +197,11 @@ form label{
   font-size: var(--font-size-xs);
 }
 
-
+/* Arrow Swiper */
+.swiper-button-prev:after, .swiper-button-next:after{
+  font-size: 25px !important;
+  font-weight: 600 !important;
+}
 @media (max-width:1200px) {
   h1{
     font-size: var(--font-size-xxl);
@@ -246,6 +250,11 @@ form label{
   form input{
     height: 35px;
     } 
+    /* Arrow Swiper */
+  .swiper-button-prev:after, .swiper-button-next:after{
+    font-size: 15px !important;
+    font-weight: 600 !important;
+    }
 }
 @media (max-width:500px) {
   h1{

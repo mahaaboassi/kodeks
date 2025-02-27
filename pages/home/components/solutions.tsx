@@ -35,10 +35,10 @@ const Solutions = () => {
         <div className=" flex flex-col gap-5 md:gap-0 md:flex-row flex-col-reverse md:grid md:grid-cols-2">
             
             <div>
-                <h3>Solutions Portfolio</h3>
-                <h2>Driving Digital Transformation with Innovation & Expertise</h2>
+                {/* <h3>Solutions Portfolio</h3> */}
+                <h2 className="mb-3">Driving Digital Transformation with Innovation & Expertise</h2>
                 <p>
-                  <strong>At KODEKS</strong>, we empower businesses to adapt, accelerate, and achieve their goals with cutting-edge ICT solutions. As your trusted technology partner, we provide tailored digital strategies, technical expertise, and scalable solutions to optimize business performance. Our approach ensures that complex systems, architectures, and mission-critical transformations are seamlessly integrated to maximize efficiency and growth.
+                  At KODEKS, we empower businesses to adapt, accelerate, and achieve their goals with cutting-edge ICT solutions. As your trusted technology partner, we provide tailored digital strategies, technical expertise, and scalable solutions to optimize business performance. Our approach ensures that complex systems, architectures, and mission-critical transformations are seamlessly integrated to maximize efficiency and growth.
                 </p>
                 <ul className="py-6 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-1 lg:grid-cols-2">
                     {data.map((e,idx)=>(<li className="gap-4" key={`Solution_Section_${e.name}_${idx}`}>

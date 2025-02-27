@@ -12,14 +12,11 @@
     position: fixed;
     left: 0;
     right: 0;
-    top: -200px;
     display: flex;
     justify-content: space-between;
-    background : linear-gradient(to bottom ,var(--third-color) 10%,var(--second-color) 80%);
-    padding-top: 5px;
-    padding-bottom: 5px;
-    animation: navFixed 0.3s forwards ;
     z-index: 100;
+    background-color: var(--light-color);
+    box-shadow: 0 0 5px var(--second-color);
 
 }
 @keyframes navFixed {
@@ -39,7 +36,7 @@
 .containerScrolled ul{
     display: flex;
     align-items: center;
-    color: var(--light-color);
+    color: var(--main-color);
 }
 .container ul li,.containerScrolled ul li{
     padding: 10px;
@@ -51,12 +48,10 @@
 .container ul li:hover,.containerScrolled ul li:hover{
     color: var(--temp-color);
 }
-.container ul li.activeLink:hover{
+.container ul li.activeLink:hover,.containerScrolled ul li.activeLink:hover{
     color: var(--main-color); 
 }
-.containerScrolled ul li.activeLink:hover{
-    color: var(--light-color); 
-}
+
 .container ul li.activeLink::before,.containerScrolled ul li.activeLink::before{
     content: "";
     position: absolute;
@@ -67,9 +62,7 @@
     right: 0;
 
 }
-.containerScrolled ul li.activeLink::before{
-    background-color: var(--light-color);
-}
+
 .menuIconDiv {
     position: relative;
     width: 16px;

@@ -30,11 +30,11 @@
 }
 .containerHero2{
     width: 100%;
-    min-height: 600px;
-    max-height: 600px;
+    min-height: 550px;
+    max-height: 550px;
     object-fit: contain;
     /* background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d200 80%), url("/Frame 7.png"); */
-    background: url("/solutions.jpg");
+    /* background: url("/solutions.jpg"); */
     background-size: cover;
     background-repeat: no-repeat;
     box-shadow: 0px 0px 20px var(--second-color);
@@ -59,7 +59,7 @@
 .containerHero h2,.containerHero1 h2,.containerHero2 h2,.containerHero3 h2{
     color: var(--light-color) ;
     font-size: var(--font-size-xl);
-    width: 50%;
+    width: 40%;
 }
 .cta{
     font-size: var(--font-size-s);
@@ -98,26 +98,21 @@
 }
 
 /* Services Section */
+
 .containerServices{
 
     position: relative; 
     height: 500px;
-    background: var(--third-color); 
+    background: var(--second-color); 
     
     
 }
-.contentServices{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: -50px;
-    z-index: 10;
-}
+
 
 /* About Us */
 .containerAboutUs{
     position: relative;
-    clip-path: ellipse(97% 100% at 50% 100%);
+    clip-path: ellipse(100% 100% at 50% 100%);
     margin-top: -100px;
     background-color: var(--light-color);
 }
@@ -144,14 +139,13 @@
 /* Soltion section */
 
 .containerSolutions{
-    background: linear-gradient(  var(--third-color),var(--second-color),var(--main-color));
-    background: var(--main-color);
+    background: var(--second-color);
     color: var(--light-color);
 }
 .containerSolutions h2{
     font-size: 600;
     text-transform: capitalize;
-    text-shadow: 0px 0px 10px white;
+    line-height: 35px;
 }
 .containerSolutions img{
     position: relative;
@@ -237,14 +231,8 @@
     /* hero Section */
     .containerHero,.containerHero1,.containerHero2,.containerHero3{
         width: 100%;
-        min-height: 500px;
-        max-height: 500px;
-        object-fit: contain;
-        /* background-image: linear-gradient(to right,  #5f99d2b7 10% , #5f99d253 80%), url("/Frame 3.png"); */
-        background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d223 80%), url("/Frame 3.png");
-        background-size: cover;
-        background-repeat: no-repeat;
-        box-shadow: 0px 0px 20px var(--second-color);
+        min-height: 450px;
+        max-height: 450px;
     
     }
 
@@ -267,10 +255,7 @@
         height: unset;
         padding-bottom: 80px;  
     }
-    .contentServices{
-        position: relative;
-        margin-top: -50px; 
-    }
+
     /* solution section */
     .containerSolutions img{
         width: 100%;

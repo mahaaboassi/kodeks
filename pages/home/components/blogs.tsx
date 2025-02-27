@@ -31,7 +31,7 @@ const Blogs = ()=>{
     }]
 
     return <div className={`${Style.containerBlogs} px-8 md:px-16 py-10`}>
-        <Header subTitle="Latest News" title="Stay Updated with Industry Trends" />
+        <Header  title="Stay Updated with Industry Trends" />
         <div className="grid grid-cols-1 gap-5 md:grid-cols-3 md:gap-2">
             
             {data.map((e,idx)=><div key={`Blogs_${e.title}_${idx}`} className={`${Style.containerCard}`}>

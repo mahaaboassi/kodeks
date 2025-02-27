@@ -8,7 +8,7 @@ const Blocks = ()=>{
         link : "/aboutUs/innovation"
     },{
         name : "Our Commitment to ESG",
-        des : <div><strong>At KODEKS</strong>, sustainability and ethical responsibility are not just corporate values—they are fundamental to the way we do business. We are deeply committed to environmental stewardship, social impact, and governance excellence. Our ESG initiatives are integrated into our business operations, partnerships, and community-driven projects, ensuring that we contribute to a more sustainable and inclusive world.</div>,
+        des : <div>At KODEKS, sustainability and ethical responsibility are not just corporate values—they are fundamental to the way we do business. We are deeply committed to environmental stewardship, social impact, and governance excellence. Our ESG initiatives are integrated into our business operations, partnerships, and community-driven projects, ensuring that we contribute to a more sustainable and inclusive world.</div>,
         image : "",
         link : "/aboutUs/esg"
     },{
