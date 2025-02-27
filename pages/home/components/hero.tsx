@@ -29,14 +29,14 @@ const HeroSection = ()=>{
         description : "We understand your sector’s unique challenges and deliver tailored solutions.",
         cta :"Learn More",
         className : "containerHero",
-        image : windowWidth<630? "/5x5 b.png" :(windowWidth<1000?"/7x5 b.png":"/teams.jpg")
+        image : windowWidth<630? "/5x5b.png" :(windowWidth<1000?"/7x5b.png":"/teams.jpg")
     },{
         id: 2,
         title : "Advanced Digital Technologies",
         description : "Cloud, AI, IoT, Cybersecurity, Intelligent Automation, and more.",
         cta :"Learn More",
         className : "containerHero1",
-        image : windowWidth<630? "/5x5 c.png" :(windowWidth<1000?"/7x5 a.png":"/technology.jpg")
+        image : windowWidth<630? "/5x5c.png" :(windowWidth<1000?"/7x5a.png":"/technology.jpg")
     },{
         id: 3,
         title : "Scalable & Future-Proof Solutions ",
@@ -50,7 +50,7 @@ const HeroSection = ()=>{
         description : "Helping businesses worldwide accelerate transformation and maximize ROI.",
         cta :"Learn More",
         className : "containerHero3",
-        image : windowWidth<630? "/5x5 a.png" :(windowWidth<1000?"/7x5 c.png":"/world.jpg")
+        image : windowWidth<630? "/5x5a.png" :(windowWidth<1000?"/7x5c.png":"/world.jpg")
     }
 ]
     
