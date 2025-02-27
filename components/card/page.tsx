@@ -1,18 +1,19 @@
 "use client"
 import { useEffect, useState } from "react";
 import Style from "./page.module.css"
+import { useRouter } from "next/navigation";
 
 type InfoProps = {
     icon : React.ReactNode,
     title : string,
     description : string ,
     keywords : string[],
-    // link : string
+    link : string
 }
 
-const CardServices =({icon,title,description,keywords}:InfoProps)=>{
+const CardServices =({icon,title,description,keywords,link}:InfoProps)=>{
     const [windowWidth, setWindowWidth] = useState(0);
-
+    const router = useRouter()
     useEffect(() => {
         if (typeof window !== "undefined") {
             setWindowWidth(window.innerWidth);
@@ -32,7 +33,7 @@ const CardServices =({icon,title,description,keywords}:InfoProps)=>{
             {keywords.map((e,idx)=><li key={`Service_${e}_${idx}`}>{e}</li>)}
         </ul>
         <div className={` pt-5`}>
-            <button  className="btn-dark">learn more</button>
+            <button onClick={()=>router.push(link)}  className="btn-dark">learn more</button>
         </div>
   </div>
 

@@ -29,7 +29,6 @@ const Blocks = ()=>{
                 <div className={`${Style.description} py-3`}>{e.des}</div>
                 
                 <div> <Link href={e.link}><span >See More</span> </Link> </div>
-                
             </div>)}
             
             

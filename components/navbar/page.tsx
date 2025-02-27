@@ -41,10 +41,10 @@ const Navbar = ()=>{
         link : "/aboutUs"
       },{
         name : "Solutions",
-        link : "/#"
+        link : "/aboutUs/solutions"
       },{
         name : "Insights",
-        link : "/#"
+        link : "/aboutUs/industry"
       },{
         name : "Contact Us",
         link : "/#"

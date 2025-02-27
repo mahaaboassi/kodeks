@@ -1,0 +1,88 @@
+.content{
+    height: 350px;
+    background: var(--second-color); 
+    color: var(--light-color);
+    font-size: var(--font-size-l);
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    
+}
+.temp{
+    clip-path: ellipse(80% 100% at 50% 100%);
+    position: relative;
+    margin-top: -150px;
+    background-color: var(--light-color);
+    height: 400px;
+    z-index: 5;
+}
+.containerBlocks{
+    margin-top: -500px;
+    position: relative;
+    z-index: 10;
+}
+.blocks{
+
+  
+    
+}
+
+.card{
+    box-shadow: 0 0 5px var(--third-color);
+    border-radius: 12px;
+    transition: 0.3s;
+    background-color: var(--light-color);
+}
+.card:hover{
+    box-shadow: 0 0 10px var(--third-color);
+}
+.card h3{
+    color: var(--main-color);
+    font-size: var(--font-size-s);
+    font-weight: 600;
+}
+.card p{
+    color: var(--temp-color);
+    font-size: var(--font-size-xs);
+}
+.sub{
+    color: var(--temp-color);
+    font-size: var(--font-size-xs);
+}
+.card ul{
+    color: var(--temp-color);
+    font-size: var(--font-size-xs);
+}
+.card ul li{
+    position: relative;
+    padding-left: 15px;
+}
+.card ul li::before{
+    content: "✔"; /* Unicode checkmark */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    font-size: 14px;
+    color: var(--second-color);
+    
+}
+
+.containerSvg svg{
+    fill: var(--main-color);
+    width: 50px;
+    
+}
+@media (max-width:768px) {
+    .content{
+        font-size: var(--font-size-s);
+        
+    }
+   
+    .containerSvg svg{
+        fill: var(--main-color);
+        width: 40px;
+        
+    }
+    
+}
