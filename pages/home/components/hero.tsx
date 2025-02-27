@@ -23,34 +23,35 @@ const HeroSection = ()=>{
         }
     }, []);
     const info = [
-    //     {
-    //     id: 1,
-    //     title : "Industry-Specific Expertise ",
-    //     description : "We understand your sector’s unique challenges and deliver tailored solutions.",
-    //     cta :"Learn More",
-    //     className : "containerHero"
-    // },{
-    //     id: 2,
-    //     title : "Advanced Digital Technologies",
-    //     description : "Cloud, AI, IoT, Cybersecurity, Intelligent Automation, and more.",
-    //     cta :"Learn More",
-    //      className : "containerHero1"
-    // },
-    {
+        {
+        id: 1,
+        title : "Industry-Specific Expertise ",
+        description : "We understand your sector’s unique challenges and deliver tailored solutions.",
+        cta :"Learn More",
+        className : "containerHero",
+        image : windowWidth<630? "/5x5 b.png" :(windowWidth<1000?"/7x5 b.png":"/teams.jpg")
+    },{
+        id: 2,
+        title : "Advanced Digital Technologies",
+        description : "Cloud, AI, IoT, Cybersecurity, Intelligent Automation, and more.",
+        cta :"Learn More",
+        className : "containerHero1",
+        image : windowWidth<630? "/5x5 c.png" :(windowWidth<1000?"/7x5 a.png":"/technology.jpg")
+    },{
         id: 3,
         title : "Scalable & Future-Proof Solutions ",
         description : "Designed to grow with your business.",
         cta :"Learn More",
         className : "containerHero2",
         image : windowWidth<630? "/500x500.png" :(windowWidth<1000?"/700x500.png":"/solutions.jpg")
-    },
-    // {
-    //     id: 4,
-    //     title : "Proven Track Record",
-    //     description : "Helping businesses worldwide accelerate transformation and maximize ROI.",
-    //     cta :"Learn More",
-    //     className : "containerHero3"
-    // }
+    },{
+        id: 4,
+        title : "Proven Track Record",
+        description : "Helping businesses worldwide accelerate transformation and maximize ROI.",
+        cta :"Learn More",
+        className : "containerHero3",
+        image : windowWidth<630? "/5x5 a.png" :(windowWidth<1000?"/7x5 c.png":"/world.jpg")
+    }
 ]
     
     
