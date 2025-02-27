@@ -31,6 +31,7 @@
     color: var(--main-color);
     font-size: var(--font-size-3xl);
     font-weight: 600;
+    line-height: 50px;
 }
 .containerHero h2,.containerHero1 h2,.containerHero2 h2,.containerHero3 h2{
     color: var(--light-color) ;
@@ -79,7 +80,7 @@
 
     position: relative; 
     height: 500px;
-    background: var(--second-color); 
+    background: var(--third-color); 
     
     
 }
@@ -203,6 +204,11 @@
         height: 600px;
     }
 }
+@media (min-width:768px) and (max-width:1024px){
+    .containerHero h1,.containerHero1 h1,.containerHero2 h1,.containerHero3 h1{
+        width: 70%;
+    }
+}
 @media (max-width:768px) {
     /* hero Section */
     .containerHero,.containerHero1,.containerHero2,.containerHero3{
@@ -214,6 +220,7 @@
 
     .containerHero h1,.containerHero1 h1,.containerHero2 h1,.containerHero3 h1{
         font-size: var(--font-size-xxl);
+        line-height: 40px;
     }
     .containerHero h2,.containerHero1 h2,.containerHero2 h2,.containerHero3 h2{
         color: var(--light-color) ;
@@ -239,11 +246,22 @@
     }
 
 }
+@media (max-width:640px) {
 
+    .containerHero h1,.containerHero1 h1,.containerHero2 h1,.containerHero3 h1{
+        font-size: var(--font-size-xl);
+        line-height: 30px;
+        font-weight: 700;
+    }
+    .containerHero h2,.containerHero1 h2,.containerHero2 h2,.containerHero3 h2{
+        font-size: var(--font-size-l);
+    }
+}
 @media (max-width:350px) {
     /* hero section */
     .containerHero h2,.containerHero1 h2,.containerHero2 h2,.containerHero3 h2{
         width: 80%;
+        font-size: var(--font-size-s) !important;
     }
     /* Contact Section */
     .containerContactUs h5{

@@ -1,7 +1,7 @@
 .container{
     width: 100%;
-    min-height: 600px;
-    max-height: 600px;
+    min-height: 550px;
+    max-height: 550px;
     object-fit: contain;
     background-image: linear-gradient(to right,  #5F99D2 10% , #5f99d200 80%), url("/Frame 8.png");
     background-image : url("/teams.jpg") ;
@@ -36,8 +36,8 @@
 @media (max-width:768px) {
     .container{
         width: 100%;
-        min-height: 500px;
-        max-height: 500px;
+        min-height: 450px;
+        max-height: 450px;
     
     }
 

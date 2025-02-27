@@ -57,7 +57,7 @@ const Navbar = ()=>{
             </div>
             <ul className={`${isOpen&& Style.openMenu} `}>
                 {data.map((e,idx)=><Link key={`Navbar_${e.name}_${idx}`} href={e.link}>
-                <li className={pathname === e.link ? Style.activeLink : ""} >
+                <li onClick={()=>setIsOpen(false)} className={pathname === e.link ? Style.activeLink : ""} >
                   {e.name}
                 </li></Link>)}
             </ul>

@@ -86,3 +86,21 @@
     }
     
 }
+@media (max-width:600px) {
+    .content{
+        height: 350px;
+        
+    } 
+}
+@media (max-width:440px) {
+    .content{
+        height: 410px;
+        
+    } 
+}
+@media (max-width:350px) {
+    .content{
+        height: 470px;
+        
+    } 
+}
