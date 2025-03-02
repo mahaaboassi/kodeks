@@ -9,8 +9,46 @@ const ContactUs = ()=>{
         </div>
         <div className={`${Style.temp}`}></div>
         <div className={`${Style.containerContent} px-8 md:px-16`}>
-            <form>
-                
+            <form className="p-5 flex flex-col gap-5">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div>
+                        <label> Name :</label>
+                        <input placeholder="Name" />
+                    </div>
+                    <div>
+                        <label> Email :</label>
+                        <input placeholder="Email" />
+                    </div>
+                </div>
+
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    <div>
+                        <label> Company :</label>
+                        <input placeholder="Company" />
+                    </div>
+                    <div>
+                        <label> Job Title :</label>
+                        <input placeholder="Job Title" />
+                    </div>
+                </div>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+                    
+                    <div>
+                        <label> Country :</label>
+                        <input placeholder="Country" />
+                    </div>
+                    <div>
+                        <label> Phone :</label>
+                        <input placeholder="Phone" />
+                    </div>
+                </div>
+                <div>
+                    <label> Message :</label>
+                    <textarea placeholder="Message" />
+                </div>
+                <div>
+                    <button className="btn-dark">Submit</button>
+                </div>
             </form>
         </div>
     </div>

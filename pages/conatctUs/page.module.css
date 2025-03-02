@@ -24,6 +24,25 @@
 .containerContent form{
     background-color: var(--light-color);
     border-radius: 12px;
-    height: 500px;
+    /* height: 500px; */
     box-shadow: 0 0 5px var(--third-color);
+}
+.containerContent form label{
+    color: var(--main-color);
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.containerContent form input{
+    border: 2px solid var(--second-color);
+    outline: none !important;
+}
+.containerContent form textarea{
+    border: 2px solid var(--second-color);
+    outline: none !important;
+}
+.containerContent form input:focus{
+    border: 2px solid var(--temp-color);
+}
+.containerContent form textarea:focus{
+    border: 2px solid var(--temp-color);
 }

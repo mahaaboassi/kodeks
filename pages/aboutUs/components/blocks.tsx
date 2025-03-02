@@ -24,11 +24,11 @@ const Blocks = ()=>{
     }]
     return <div className={`${Style.containerBlocks} py-16 px-8 md:px-16`}>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5  ">
-            {data.map((e,idx)=><div className={`${Style.card} p-5`} key={`About_Us_services_${e.name}_${idx}`}>
+            {data.map((e,idx)=><div className={`${Style.card} `} key={`About_Us_services_${e.name}_${idx}`}>
                 <h3>{e.name}</h3>
-                <div className={`${Style.description} py-3`}>{e.des}</div>
+                <div className={`${Style.description} pt-3 px-5`}>{e.des}</div>
                 
-                <div> <Link href={e.link}><span >See More</span> </Link> </div>
+                <div className="p-5"> <Link href={e.link}><span >See More</span> </Link> </div>
             </div>)}
             
             
