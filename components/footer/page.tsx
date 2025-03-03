@@ -37,16 +37,16 @@ const Footer = ()=>{
     }]
     const support = [{
         name : "Cookie Management Center",
-        link : "#"
+        link : "/cookies"
     },{
         name : "FAQs",
-        link : "#"
+        link : "/FAQs"
     },{
         name : "Privacy Policy",
-        link : "#"
+        link : "/privacyPolicy"
     },{
         name : "Terms & Conditions",
-        link : "#"
+        link : "/termsAndConditions"
     }]
     const  icons = [{
         name : "linkedin",
@@ -81,7 +81,7 @@ const Footer = ()=>{
             <div className={`${Style.containerThird} `}>
                 <div>
                     <p>Keeping you informed</p>
-                    <button className="btn-dark">Subscriber</button>
+                    <button className="btn-dark">Subscribe</button>
                 </div>
                 <div>
                     <p>Follow us</p>

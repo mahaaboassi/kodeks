@@ -16,7 +16,7 @@ type DataType = {
 type PropsDynamic = {
     data: DataType;
 };
-const DynamicPages = ({data}:PropsDynamic)=>{
+const DynamicComponent = ({data}:PropsDynamic)=>{
     return<div className={`${Style.container}`}>
         <div className={`${Style.content} pt-10 px-8 md:px-16`}>
             {data.description}
@@ -45,4 +45,4 @@ const DynamicPages = ({data}:PropsDynamic)=>{
     </div>
 }
 
-export default DynamicPages
+export default DynamicComponent
