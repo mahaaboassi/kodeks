@@ -47,7 +47,7 @@
     .container h2{
         color: var(--light-color) ;
         font-size: var(--font-size-xl);
-        width: 60%;
+        width: 50%;
     }
 }
 @media (max-width:350px) {
