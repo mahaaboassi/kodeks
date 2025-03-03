@@ -170,7 +170,7 @@
 
 .containerCard:hover img{
     transform: scale(1.1);
-    object-fit: contain;
+    object-fit: cover;
 }
 .hashtag{
     font-size: var(--font-size-xxs);
