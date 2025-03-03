@@ -20,7 +20,7 @@ const schema = yup.object().shape({
 
 const ContactUs = ()=>{
     const {register,handleSubmit,formState: { errors }} = useForm<FormData>({
-        resolver: yupResolver(schema) as any,
+        resolver: yupResolver(schema) ,
     });
 
     const onSubmit = (formData: FormData) => {
