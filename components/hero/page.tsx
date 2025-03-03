@@ -18,7 +18,6 @@ const Hero = ({pathFirst,pathSecond,link,description,title}:HeroProps)=>{
         }
     }, []);
     return <div >
-         {/* <div style={{backgroundImage:`url(${windowWidth<1000?"/7x5b.png":"/teams.jpg"})`}} className={`${Style.container} pt-14 sm:pt-28`}> */}
     <div style={{backgroundImage:`url(${windowWidth<630? "/5x5b.png" :(windowWidth<1000?"/7x5b.png":"/teams.jpg")})`}} className={`${Style.container} pt-14 sm:pt-28`}>
         <div className="grid grid-cols-1  ">
             <div >

@@ -54,7 +54,8 @@ const Solutions = () => {
              
             </div>
             <div className="flex justify-center md:justify-end items-center">
-                <Image style={{marginTop: `${ -350 + offsetY * 0.2}px`}} alt="solution" src="/solutionSection.jpg" width={400} height={400}/>
+                {/* <Image style={{marginTop: `${ -350 + offsetY * 0.2}px`}} alt="solution" src="/solutionSection.jpg" width={400} height={400}/> */}
+                <Image alt="solution" src="/solutionSection.jpg" width={400} height={400}/>
             </div>
 
         </div>
