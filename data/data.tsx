@@ -449,7 +449,7 @@ export const privacyPolicy = {
 ]
 }
 export const cookiesData = {
-    title : "TERMS AND CONDITIONS",
+    title : "Cookies Management",
     lastUpdated : "03-March-2025",
     finalDes : "",
     children : [{
@@ -457,19 +457,19 @@ export const cookiesData = {
         description : "Cookies are small text files stored on your device to enhance user experience and provide analytical data.",
         content : []
     },{
-        title : "How We Use Cookies ",
+        title : "How We Use Cookies?",
         description : "",
         content : ["To improve website functionality","To analyze website traffic and usage patterns","To remember your preferences"]
     },{
-        title : "Managing Cookies",
+        title : "Managing Cookies :",
         description : "You can manage cookies through your browser settings. However, disabling cookies may affect your experience on our website.",
         content : []
     },{
-        title : "Third-Party Cookies",
+        title : "Third-Party Cookies :",
         description : "We may use third-party services such as Google Analytics that use cookies to provide insights into website performance.",
         content : []
     },{
-        title : "Changes to this Policy",
+        title : "Changes to this Policy :",
         description : "We may update this policy from time to time. Please review it periodically for any changes.",
         content : []
     },

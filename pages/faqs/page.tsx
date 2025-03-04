@@ -1,25 +1,14 @@
-import Hero from "@/components/hero/page"
+import { FAQsData } from "@/data/data"
 import Style from "./page.module.css"
+import Hero from "@/components/hero/page"
 
 
-type DataType = {
-    title : string,
-    children :{
-        question : string,
-        answer : string,
-    }[]
-
-}
-type PropsType = {
-    data : DataType
-}
-const FAQs = ({data}: PropsType) =>{
+const FAQs = () =>{
     return <div className={`${Style.container}`}>
-        <Hero link="/" description="" pathFirst="Home" pathSecond={data.title} title={data.title} />
-        <h1>{data.title}</h1>
-        <div>
-            {data.children.map((child,idx)=>(<div key={`FAQs_${data.title}_${child.question}_${idx}`}>
-                <h2>{child.question}</h2>
+        <Hero description="" pathFirst="Home" link="/" pathSecond="FAQs" title="FAQs" />
+        <div className={`px-8 md:px-16 py-5`}>
+            {FAQsData.children.map((child,idx)=>(<div className="pb-5" key={`FAQs_${child.question}_${idx}`}>
+                <h2 className="pb-1">{child.question}</h2>
                 <p>{child.answer}</p>
             </div>))}
         </div>

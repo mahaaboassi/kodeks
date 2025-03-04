@@ -1,0 +1,25 @@
+.container{
+   color: var(--temp-color); 
+}
+.container h2{
+    font-size: var(--font-size-l);
+    color: var(--main-color);
+    font-weight: 600;
+}
+.container ul li{
+    position: relative;
+    padding-left: 15px;
+}
+.container ul li::before{
+    content: ""; /* Unicode checkmark */
+    position: absolute;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    font-size: 14px;
+    background-color: var(--second-color);
+    
+}
