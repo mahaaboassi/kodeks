@@ -46,13 +46,13 @@
 .container ul{
     font-size: var(--font-size-l);
 }
-.container li{
+.container a{
     cursor: pointer;
     position: relative;
     padding: 5px 0;
     font-size: var(--font-size-s);
 }
-.container li::after{
+.container a::after{
     content: "";
     position: absolute;
     bottom: 0;
@@ -63,7 +63,7 @@
     background: var(--main-color);
 
 }
-.container li:hover::after{
+.container a:hover::after{
     width: 10%;
 }
 .container .icons svg path{
