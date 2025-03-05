@@ -1,5 +1,3 @@
-'use client'
-import { useEffect, useState } from "react"
 import Style from "./page.module.css"
 import Link from "next/link"
 const svg =<svg xmlns="http://www.w3.org/2000/svg" width="159" height="56" viewBox="0 0 329 56" fill="none">
@@ -62,49 +60,9 @@ const Footer = ()=>{
         </svg>,
         link : "#"
     }]
-     const [windowWidth, setWindowWidth] = useState(0);
-    
-        useEffect(() => {
-            if (typeof window !== "undefined") {
-                setWindowWidth(window.innerWidth);
-            }
-        }, []);
+   
     return <div className={`${Style.container} px-8 md:px-16 py-5`}>
-        {windowWidth<1024?<div className={`${Style.containerContent}`}>
-            <div className={`${Style.containerFirst}`}>
-                <div className="mb-1">{svg}</div>
-                <p className="pr-2">At KODEKS,we empower businesses with innovative ICT solutions, combining expertise and technology to drive efficiency, innovation, and maximize ROI</p>
-                <div className={`py-3`}>Learn more about At KODEKS</div>
-                <div>© 2025 by <Link target="_blank" href={"https://arizglobal.com/"}>Ariz Global</Link></div>
-            </div>
-            
-            <div className={`${Style.containerThird} `}>
-                <div>
-                    <p>Keeping you informed</p>
-                    <button className="btn-dark">Subscribe</button>
-                </div>
-                <div>
-                    <p>Follow us</p>
-                    <div className={`flex gap-8 ${Style.icons}`}>{icons.map((e,idx)=><div key={`Support_Footer_${e.name}_${idx}`} className="flex items-center justify-center">{e.icon}</div>)}</div>
-                </div>
-            </div>
-            <div className={`grid grid-cols-1 sm:grid-cols-3 gap-2 ${Style.containerSecond}`}>
-                <div className={`${Style.first}`}>
-                    <h4 className="mb-5">Our Company</h4>
-                    <ul>{pages.map((e,idx)=><li key={`Pages_Footer_${e.name}_${idx}`} className="mb-2"><Link href={e.link}>{e.name}</Link></li>)}</ul>
-
-                </div>
-                <div className={`${Style.second}`}>
-                    <h4 className="mb-5">Our Solution</h4>
-                    <ul>{solutions.map((e,idx)=><li key={`Solutions_Footer_${e.name}_${idx}`} className="mb-2"><Link href={e.link}>{e.name}</Link></li>)}</ul>
-
-                </div>
-                <div className={`${Style.third}`}>
-                    <h4 className="mb-5">Support</h4>
-                    <ul>{support.map((e,idx)=><li key={`Support_Footer_${e.name}_${idx}`} className="mb-2"><Link href={e.link}>{e.name}</Link></li>)}</ul>
-                </div>
-            </div>
-        </div>:<div className={`${Style.containerContent}`}>
+        {<div className={`${Style.containerContent}`}>
             <div className={`${Style.containerFirst}`}>
                 <div className="mb-1">{svg}</div>
                 <p className="pr-2">At KODEKS,we empower businesses with innovative ICT solutions, combining expertise and technology to drive efficiency, innovation, and maximize ROI</p>
@@ -128,13 +86,13 @@ const Footer = ()=>{
                 </div>
             </div>
             <div className={`${Style.containerThird} md:pb-5 `}>
-                <div>
+                <div className="flex flex-col justify-between">
                     <p className="pb-3">Keeping you informed</p>
                     <button className="btn-dark">Subscribe</button>
                 </div>
-                <div>
+                <div className="flex flex-col justify-between">
                     <p className="pb-3">Follow us</p>
-                    <div className={`flex gap-8 ${Style.icons}`}>{icons.map((e,idx)=><div key={`Support_Footer_${e.name}_${idx}`} className="flex items-center justify-center">
+                    <div className={`flex gap-8 py-2 md:py-0 ${Style.icons}`}>{icons.map((e,idx)=><div key={`Support_Footer_${e.name}_${idx}`} className="flex items-center justify-center">
                         <Link target="_blank" href={e.link}>{e.icon}</Link>
                     </div>)}</div>
                 </div>
