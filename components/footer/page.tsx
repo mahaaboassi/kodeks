@@ -130,7 +130,7 @@ const Footer = ()=>{
             <div className={`${Style.containerThird} md:pb-5 `}>
                 <div>
                     <p className="pb-3">Keeping you informed</p>
-                    <button className="btn-dark">Subscriber</button>
+                    <button className="btn-dark">Subscribe</button>
                 </div>
                 <div>
                     <p className="pb-3">Follow us</p>
