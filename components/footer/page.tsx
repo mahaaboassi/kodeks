@@ -62,27 +62,27 @@ const Footer = ()=>{
     }]
    
     return <div className={`${Style.container} px-8 md:px-16 py-5`}>
-        {<div className={`${Style.containerContent}`}>
+        {<div className={`${Style.containerContent} `}>
             <div className={`${Style.containerFirst}`}>
                 <div className="mb-1">{svg}</div>
                 <p className="pr-2">At KODEKS,we empower businesses with innovative ICT solutions, combining expertise and technology to drive efficiency, innovation, and maximize ROI</p>
                 <div className={`py-3`}>Learn more about At KODEKS</div>
                 <div>© 2025 by  <Link target="_blank" href={"https://arizglobal.com/"}>Ariz Global</Link></div>
             </div>
-            <div className={`grid-cols-1 sm:grid grid-cols-3 gap-2 ${Style.containerSecond}`}>
-                <div className={`${Style.first}`}>
-                    <h4 className="mb-5">Our Company</h4>
-                    <ul>{pages.map((e,idx)=><li key={`Pages_Footer_${e.name}_${idx}`} className="mb-2"><Link href={e.link}>{e.name}</Link></li>)}</ul>
+            <div className={`grid-cols-1 sm:grid grid-cols-3  ${Style.containerSecond}`}>
+                <div className={`${Style.first} mb-3 sm:mb-0`}>
+                    <h4 className="sm:mb-5">Our Company</h4>
+                    <ul>{pages.map((e,idx)=><li key={`Pages_Footer_${e.name}_${idx}`} className="sm:mb-2"><Link href={e.link}>{e.name}</Link></li>)}</ul>
 
                 </div>
-                <div className={`${Style.second}`}>
-                    <h4 className="mb-5">Our Solution</h4>
-                    <ul>{solutions.map((e,idx)=><li key={`Solutions_Footer_${e.name}_${idx}`} className="mb-2"><Link href={e.link}>{e.name}</Link></li>)}</ul>
+                <div className={`${Style.second} mb-3 sm:mb-0`}>
+                    <h4 className="sm:mb-5">Our Solution</h4>
+                    <ul>{solutions.map((e,idx)=><li key={`Solutions_Footer_${e.name}_${idx}`} className="sm:mb-2"><Link href={e.link}>{e.name}</Link></li>)}</ul>
 
                 </div>
                 <div className={`${Style.third}`}>
-                    <h4 className="mb-5">Support</h4>
-                    <ul>{support.map((e,idx)=><li key={`Support_Footer_${e.name}_${idx}`} className="mb-2"><Link href={e.link}>{e.name}</Link></li>)}</ul>
+                    <h4 className="sm:mb-5">Support</h4>
+                    <ul>{support.map((e,idx)=><li key={`Support_Footer_${e.name}_${idx}`} className="sm:mb-2"><Link href={e.link}>{e.name}</Link></li>)}</ul>
                 </div>
             </div>
             <div className={`${Style.containerThird} md:pb-5 `}>

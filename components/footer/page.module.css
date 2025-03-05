@@ -43,11 +43,14 @@
 .third{
     
 }
-
+.container ul{
+    font-size: var(--font-size-l);
+}
 .container li{
     cursor: pointer;
     position: relative;
     padding: 5px 0;
+    font-size: var(--font-size-s);
 }
 .container li::after{
     content: "";
@@ -78,14 +81,14 @@
     }
     .containerFirst{
         width: 100%;
-        margin-bottom: 10px;
+        margin-bottom: 30px;
     }
     .containerThird {
         display: flex;
         flex-direction: unset;
         justify-content: space-between;
         width: 100%;
-        margin-bottom: 10px;
+        margin-top: 30px;
     }
     .container button{
         padding: 8px !important;
