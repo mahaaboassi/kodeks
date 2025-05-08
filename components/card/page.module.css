@@ -17,7 +17,6 @@
 }
 .containerSvg svg{
     fill: var(--light-color);
-    
 }
 .container h3{
     font-weight: 600;
