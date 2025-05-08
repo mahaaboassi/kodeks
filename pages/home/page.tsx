@@ -9,7 +9,6 @@ const HomePage = ()=>{
     return <>
         <HeroSection/>
         <Services/>
-        
         <AboutUS/>
         <Solutions/>
         <Blogs/>
