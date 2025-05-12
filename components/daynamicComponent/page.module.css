@@ -67,6 +67,27 @@
     width: 50px;
     
 }
+.card span{
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: 500;
+    position: relative;
+    padding-bottom: 5px;
+
+}
+.card span::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color: var(--main-color);
+    transition: 0.3s;
+}
+.card span:hover::after{
+    width: 50%;
+}
 @media (max-width:768px) {
     .content{
         font-size: var(--font-size-s);

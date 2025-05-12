@@ -1,4 +1,4 @@
-import ESG from "@/pages/esg/page"
+import ESG from "@/sections/esg/page"
 
 export const metadata = {
     title: "ESG | Kodeks",

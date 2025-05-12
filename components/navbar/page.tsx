@@ -56,10 +56,10 @@ const Navbar = ()=>{
                 <div></div>
             </div>
             <ul className={`${isOpen&& Style.openMenu} `}>
-                {data.map((e,idx)=><Link key={`Navbar_${e.name}_${idx}`} href={e.link}>
-                <li onClick={()=>setIsOpen(false)} className={pathname === e.link ? Style.activeLink : ""} >
-                  {e.name}
-                </li></Link>)}
+                {data.map((e,idx)=><li key={`Navbar_${e.name}_${idx}`} onClick={()=>setIsOpen(false)} className={pathname === e.link ? Style.activeLink : ""} >
+                  <Link  href={e.link} >  {e.name}</Link>
+                </li>
+                )}
             </ul>
         </div>
     </div>

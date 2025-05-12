@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Style from "./page.module.css"
 
 type DataType = {
@@ -10,6 +11,7 @@ type DataType = {
         finalDescription ? : React.ReactNode,
         img :  React.ReactNode;
         content: string[];
+        link?: string; 
     }[]
     
 }
@@ -38,10 +40,12 @@ const DynamicComponent = ({data}:PropsDynamic)=>{
                         {e.content.map((child,i)=><li  key={`Solutions_elements_${child}_${i}`}>{child}</li>)}
                     </ul>}
                     {e.finalDescription != "" && <div className={`${Style.sub} pt-3`}>{e.finalDescription}</div>}
+                    {e.link && <div className="py-3">
+                        <Link href={e.link}><span >See More</span></Link>
+                        </div>}
                 </div>)}
             </div>
         </div>
-
     </div>
 }
 

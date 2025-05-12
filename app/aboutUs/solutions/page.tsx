@@ -1,4 +1,4 @@
-import Solution from "@/pages/solution/page"
+import Solution from "@/sections/solution/page"
 
 export const metadata = {
     title: "Solutions | Kodeks",

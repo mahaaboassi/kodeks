@@ -1,8 +1,0 @@
-.container{
-    color: var(--temp-color); 
- }
- .container h2{
-     font-size: var(--font-size-l);
-     color: var(--main-color);
-     font-weight: 600;
- }

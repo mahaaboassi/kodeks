@@ -1,4 +1,4 @@
-import About from "@/pages/aboutUs/page"
+import About from "@/sections/aboutUs/page"
 
 const AboutPage = ()=>{
     return(<About/>)

@@ -1,4 +1,4 @@
-import Innovation from "@/pages/innovation/page"
+import Innovation from "@/sections/innovation/page"
 
 export const metadata = {
     title: "Innovation | Kodeks",

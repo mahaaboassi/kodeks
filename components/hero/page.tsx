@@ -17,6 +17,10 @@ const Hero = ({pathFirst,pathSecond,link,description,title}:HeroProps)=>{
             setWindowWidth(window.innerWidth);
         }
     }, []);
+    const formatPathSecond = pathSecond.replace(/-/g, " ")     
+    .replace(/%26/g, " & ") 
+    .toLowerCase();  
+
     return <div >
     <div style={{backgroundImage:`url(${windowWidth<630? "/5x5b.png" :(windowWidth<1000?"/7x5b.png":"/teams.jpg")})`}} className={`${Style.container} pt-14 sm:pt-28`}>
         <div className="grid grid-cols-1  ">
@@ -26,7 +30,7 @@ const Hero = ({pathFirst,pathSecond,link,description,title}:HeroProps)=>{
                     <h2>
                         {description}
                     </h2>
-                    <p className="pt-3"> <Link href={link}>{pathFirst}</Link> <span>/ {pathSecond}</span></p>
+                    <p className="pt-3"> <Link href={link}>{pathFirst}</Link> <span>/ {formatPathSecond}</span></p>
                 </div>
             </div>
         </div>
