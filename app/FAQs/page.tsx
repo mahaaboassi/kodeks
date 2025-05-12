@@ -1,5 +1,5 @@
 
-import FAQs from "@/pages/faqs/page"
+import FAQs from "@/sections/faqs/page"
 
 
 export const metadata = {

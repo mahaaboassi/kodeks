@@ -1,4 +1,4 @@
-import ContactUs from "@/pages/conatctUs/page"
+import ContactUs from "@/sections/conatctUs/page"
 
 export const metadata = {
     title: "Contact Us | Kodeks",
