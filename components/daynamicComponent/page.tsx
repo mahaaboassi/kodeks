@@ -7,7 +7,7 @@ type DataType = {
     children :{
         title : string,
         subTitle ? : string,
-        description : React.ReactNode,
+        description : string,
         finalDescription ? : React.ReactNode,
         img :  React.ReactNode;
         content: string[];
@@ -17,8 +17,9 @@ type DataType = {
 }
 type PropsDynamic = {
     data: DataType;
+    type : string
 };
-const DynamicComponent = ({data}:PropsDynamic)=>{
+const DynamicComponent = ({data,type}:PropsDynamic)=>{
     return<div className={`${Style.container}`}>
         <div className={`${Style.content} pt-10 px-8 md:px-16`}>
             {data.description}
@@ -35,8 +36,12 @@ const DynamicComponent = ({data}:PropsDynamic)=>{
                         </div>
                     </div>
                     
-                    <div className={`${Style.description}`}>{e.description}</div>
-                    {e.content.length >0 && <ul className="pt-3 flex flex-col gap-1">
+                    {(type == "industry" || type == "solution") ? <div className={`${Style.description}`}>
+                        {e.description.substring(0,130)+"..."}
+                    </div>:<div className={`${Style.description}`}>
+                        {e.description}
+                    </div>}
+                    {e.content.length >0 && type != "solution" && <ul className="pt-3 flex flex-col gap-1">
                         {e.content.map((child,i)=><li  key={`Solutions_elements_${child}_${i}`}>{child}</li>)}
                     </ul>}
                     {e.finalDescription != "" && <div className={`${Style.sub} pt-3`}>{e.finalDescription}</div>}

@@ -22,13 +22,13 @@ const Footer = ()=>{
     }]
     const solutions = [{
         name : "Augmented Reality (AR)",
-        link : "/aboutUs/solutions"
+        link : "/aboutUs/solutions/augmented-reality-(ar)"
     },{
         name : "Cybersecurity",
-        link : "/aboutUs/solutions"
+        link : "/aboutUs/solutions/cybersecurity"
     },{
         name : "Data Center",
-        link : "/aboutUs/solutions"
+        link : "/aboutUs/solutions/data-center"
     },{
         name : "See More",
         link : "/aboutUs/solutions"

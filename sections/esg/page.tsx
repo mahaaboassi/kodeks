@@ -5,7 +5,7 @@ import DynamicComponent from "@/components/daynamicComponent/page"
 const ESG = ()=>{
     return<div className={`pb-16`}>
         <Hero title="ESG" description="Building a Sustainable & Inclusive Future" link="/aboutUs" pathFirst="About Us" pathSecond="ESG" />
-        <DynamicComponent data={esgData} />
+        <DynamicComponent type="esg" data={esgData} />
     </div>
 }
 export default ESG

@@ -32,7 +32,40 @@
 .first{
     width: 50%;
 }
-
+.second ul{
+    color: var(--temp-color);
+    font-size: var(--font-size-xs);
+}
+.second ul li{
+    position: relative;
+    padding-left: 15px;
+   
+    
+}
+.animate{
+    opacity: 0;
+    transform: translateY(5px);
+   animation: upDiv 0.8s forwards linear;
+}
+@keyframes upDiv {
+    from{
+        opacity: 0;
+        transform: translateY(5px)
+    }to{
+        opacity: 1;
+        transform: translateY(0px)
+    }
+}
+.second ul li::before{
+    content: "✔"; /* Unicode checkmark */
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); /* Center vertically */
+    font-size: 14px;
+    color: var(--second-color);
+    
+}
 /* Banking Page */
 .bankContainer{
     /* background-color: red; */
