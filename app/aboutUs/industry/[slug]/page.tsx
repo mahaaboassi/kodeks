@@ -7,17 +7,15 @@ interface SubPagesProps {
 }
 
 // ✅ Dynamic metadata function
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const name = params.slug
-    .replace(/-/g, " ")
-    .replace(/%26/g, " & ")
+export const generateMetadata = ({ params }: SubPagesProps): Metadata => {
+  const name = params.slug.replace(/-/g, " ")     
+    .replace(/%26/g, " & ") 
     .toLowerCase();
-
   return {
-    title: `${name} | Industry | KODEKS`,
+    title: `${name} | Industry | Kodeks`,
     description: `Explore digital solutions and insights for the ${name} sub-industry with KODEKS.`,
   };
-}
+};
 
 // ✅ Page component
 const SubPages: FC<SubPagesProps> = ({ params }) => {
