@@ -40,7 +40,7 @@ const Navbar = ()=>{
         name : "Contact Us",
         link : "/contactUs"
       }]
-    return <div className={` ${scrolled?Style.containerScrolled:Style.container} px-8 md:px-16 `}>
+    return <div className={` ${scrolled?Style.containerScrolled:Style.container} py-3.5 px-8 md:px-16 `}>
         <div className="flex items-center">
           <Link href="/">
            <Image width={150} height={100} src="/logo.png" alt="logo" />
