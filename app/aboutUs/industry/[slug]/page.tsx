@@ -22,6 +22,6 @@ export default async function Page({
   params: Promise<{ slug: string }>
 }) {
   const { slug } = await params
-  const name = slug.replace(/-/g, " ").replace(/%26/g, " & ").toLowerCase()
+  const name = slug.replace(/%26/g, "&").toLowerCase()
   return <SubIndustry name={name} slug={slug} />
 }

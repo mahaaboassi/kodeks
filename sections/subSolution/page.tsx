@@ -10,7 +10,7 @@ interface pagesProps {
     name: string
   }
 const SubSolution = ({slug, name } : pagesProps)=>{
-    const formatName = name.toLowerCase()
+    const formatName = name.replace(" ","-").toLowerCase()
     const data :  {
             title: string;
             img: React.ReactNode;
@@ -21,6 +21,8 @@ const SubSolution = ({slug, name } : pagesProps)=>{
             srcImg: string;
             finalDescription: string;
         } | undefined= solutionData.children.find(e=> `/aboutUs/solutions/${formatName}`== e.link)
+
+    
     const [isTriggle, setIsTriggle ] = useState(false)
     const targetRef = useRef(null)
     useEffect(()=>{
