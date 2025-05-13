@@ -2,7 +2,7 @@
 
 const Manufacturing = ()=>{
     const data = {
-        title : 'In an era of increasing digital threats, security is non-negotiable. KODEKS provides.',
+        title : 'In an era of increasing digital threats, security is non-negotiable. INTELLECTRA provides.',
         children : [{
                         title : "Smart Factory Automation",
                         value: "We implement IoT sensors, robotics, and automated systems that reduce downtime, improve precision, and enhance real-time production control.",
@@ -18,7 +18,7 @@ const Manufacturing = ()=>{
                     }, ]
         }
     const data_2 = {
-        title : `With a strong grasp of both regional manufacturing environments and global industrial trends, KODEKS tailors solutions that meet the unique operational and compliance needs of manufacturers across the MENA region and beyond.
+        title : `With a strong grasp of both regional manufacturing environments and global industrial trends, INTELLECTRA tailors solutions that meet the unique operational and compliance needs of manufacturers across the MENA region and beyond.
         From plant automation to data-driven supply chain visibility, we help organizations become agile, resilient, and future-ready.`,
         // subTitle : "Our experience",
         // children : [{

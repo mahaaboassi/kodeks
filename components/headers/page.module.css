@@ -13,4 +13,5 @@
     text-transform: capitalize;
     color: var(--main-color);
     font-weight: 600;
+    font-family: var(--raleway);
 }

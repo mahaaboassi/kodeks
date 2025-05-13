@@ -34,10 +34,13 @@
     color: var(--main-color);
     font-size: var(--font-size-s);
     font-weight: 600;
+    font-family: var(--raleway);
 }
 .card p{
     color: var(--temp-color);
-    font-size: var(--font-size-xs);
+    font-size: var(--font-size-s);
+    font-weight: 500;
+    font-family: var(--farsan);
 }
 .sub{
     color: var(--temp-color);

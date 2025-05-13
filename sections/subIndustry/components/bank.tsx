@@ -2,10 +2,10 @@ import Style from "../page.module.css"
 
 const Bank = ()=>{
     const data = {
-        title : 'In an era of increasing digital threats, security is non-negotiable. KODEKS provides.',
+        title : 'In an era of increasing digital threats, security is non-negotiable. INTELLECTRA provides.',
         children : [{
                         title : "Built-In Security",
-                        value: "In an era of increasing digital threats, security is non-negotiable. KODEKS offers robust cybersecurity strategies tailored for the banking sector.",
+                        value: "In an era of increasing digital threats, security is non-negotiable. INTELLECTRA offers robust cybersecurity strategies tailored for the banking sector.",
                         icon: ""
                     },{
                         title : "Trusted Cloud Infrastructure",
@@ -18,7 +18,7 @@ const Bank = ()=>{
                     }, ]
         }
     const data_2 = {
-        title : "We combine global insights with deep regional knowledge. Our consultants understand the unique challenges faced by banks in MENA and beyond. From Sharia-compliant banking solutions to cross-border regulatory challenges, KODEKS helps institutions stay agile, relevant, and competitive.",
+        title : "We combine global insights with deep regional knowledge. Our consultants understand the unique challenges faced by banks in MENA and beyond. From Sharia-compliant banking solutions to cross-border regulatory challenges, INTELLECTRA helps institutions stay agile, relevant, and competitive.",
         // subTitle : "Our experience",
         // children : [{
         //     value : "",

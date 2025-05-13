@@ -10,10 +10,12 @@
 .container h1{
     color: var(--main-color);
     font-weight: 600;
+    font-family: var(--raleway);
 }
 .container p{
     color: var(--temp-color);
     font-size: var(--font-size-s);
+    font-family: var(--farsan);
 }
 .content{
     position: relative;

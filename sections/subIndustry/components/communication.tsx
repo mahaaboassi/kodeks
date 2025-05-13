@@ -2,7 +2,7 @@ import Style from "../page.module.css"
 
 const Communication = ()=>{
     const data = {
-        title : 'In an era of increasing digital threats, security is non-negotiable. KODEKS provides.',
+        title : 'In an era of increasing digital threats, security is non-negotiable. INTELLECTRA provides.',
         children : [{
                         title : "Smart Network Transformation",
                         value: "We deliver AI-driven network optimization, predictive maintenance, and intelligent traffic management to improve reliability and reduce downtime.",
@@ -19,7 +19,7 @@ const Communication = ()=>{
         }
     const data_2 = {
         title : `With a deep understanding of the MENA region and global communications trends, our experts help providers navigate market shifts, customer demands, and regulatory frameworks.
-From optimizing service delivery to managing cross-border data requirements, KODEKS ensures your operations are agile, compliant, and competitive.`,
+From optimizing service delivery to managing cross-border data requirements, INTELLECTRA ensures your operations are agile, compliant, and competitive.`,
         // subTitle : "Our experience",
         // children : [{
         //     value : "",

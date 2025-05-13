@@ -26,7 +26,7 @@ const Hero = ({pathFirst,pathSecond,link,description,title}:HeroProps)=>{
         <div className="grid grid-cols-1  ">
             <div >
                 <div  className="flex flex-col justify-center pt-20 px-8 md:px-16">
-                    <h1>{title}</h1>
+                    <h1>{title} </h1>
                     <h2>
                         {description}
                     </h2>

@@ -3,12 +3,12 @@ import Link from "next/link"
 const Blocks = ()=>{
     const data =[{
         name : "Innovation at the Core",
-        des : <div>Success in today’s fast-changing digital world requires constant reinvention, agility, and bold innovation. At KODEKS, we help organizations stay ahead by transforming ideas into actionable, scalable solutions through our idea-to-solution framework. Whether through AI, automation, cybersecurity, or cloud solutions, we enable businesses to embrace innovation that fuels sustainable growth.</div>,
+        des : <div>Success in today’s fast-changing digital world requires constant reinvention, agility, and bold innovation. At INTELLECTRA, we help organizations stay ahead by transforming ideas into actionable, scalable solutions through our idea-to-solution framework. Whether through AI, automation, cybersecurity, or cloud solutions, we enable businesses to embrace innovation that fuels sustainable growth.</div>,
         image : "",
         link : "/aboutUs/innovation"
     },{
         name : "Our Commitment to ESG",
-        des : <div>At KODEKS, sustainability and ethical responsibility are not just corporate values—they are fundamental to the way we do business. We are deeply committed to environmental stewardship, social impact, and governance excellence. Our ESG initiatives are integrated into our business operations, partnerships, and community-driven projects, ensuring that we contribute to a more sustainable and inclusive world.</div>,
+        des : <div>At INTELLECTRA, sustainability and ethical responsibility are not just corporate values—they are fundamental to the way we do business. We are deeply committed to environmental stewardship, social impact, and governance excellence. Our ESG initiatives are integrated into our business operations, partnerships, and community-driven projects, ensuring that we contribute to a more sustainable and inclusive world.</div>,
         image : "",
         link : "/aboutUs/esg"
     },{
@@ -18,7 +18,7 @@ const Blocks = ()=>{
         link : "/aboutUs/industry"
     },{
         name : "Solutions",
-        des : <div>In today’s fast-evolving digital landscape, transformation is no longer optional—it’s essential. At KODEKS, we empower businesses to adapt, accelerate, and thrive with secure, flexible, and future-ready ICT solutions. Our end-to-end services enable organizations to enhance digital agility, strengthen cybersecurity resilience, scale seamlessly with cloud and AI-driven technologies, and optimize workflows through intelligent automation—all designed to drive efficiency, innovation, and long-term success.</div>,
+        des : <div>In today’s fast-evolving digital landscape, transformation is no longer optional—it’s essential. At INTELLECTRA, we empower businesses to adapt, accelerate, and thrive with secure, flexible, and future-ready ICT solutions. Our end-to-end services enable organizations to enhance digital agility, strengthen cybersecurity resilience, scale seamlessly with cloud and AI-driven technologies, and optimize workflows through intelligent automation—all designed to drive efficiency, innovation, and long-term success.</div>,
         image : "",
         link : "/aboutUs/solutions"
     }]

@@ -2,7 +2,7 @@ import Style from "../page.module.css"
 
 const Healthcare = ()=>{
     const data = {
-        title : 'In an era of increasing digital threats, security is non-negotiable. KODEKS provides.',
+        title : 'In an era of increasing digital threats, security is non-negotiable. INTELLECTRA provides.',
         children : [{
                         title : "Smart Patient Management",
                         value: "We automate patient data systems and appointment workflows, reducing manual errors and freeing up medical staff to focus on care delivery.",
@@ -18,7 +18,7 @@ const Healthcare = ()=>{
                     }, ]
         }
     const data_2 = {
-        title : `With experience supporting healthcare systems in the MENA region and internationally, KODEKS understands the balance between innovation, compliance, and patient trust.
+        title : `With experience supporting healthcare systems in the MENA region and internationally, INTELLECTRA understands the balance between innovation, compliance, and patient trust.
         We help institutions modernize securely and responsibly—whether implementing telehealth, managing electronic health records, or aligning with local data privacy laws—to support equitable and accessible care.`,
         // subTitle : "Our experience",
         // children : [{

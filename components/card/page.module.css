@@ -24,6 +24,7 @@
     padding: 5px ;
     color: var(--main-color);
     font-size: 1.5rem;
+    font-family: var(--raleway);
 }
 .container p{
     /* text-align: center; */

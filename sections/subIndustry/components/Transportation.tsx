@@ -2,7 +2,7 @@ import Style from "../page.module.css"
 
 const Transportation = ()=>{
     const data = {
-        title : 'In an era of increasing digital threats, security is non-negotiable. KODEKS provides.',
+        title : 'In an era of increasing digital threats, security is non-negotiable. INTELLECTRA provides.',
         children : [{
                         title : "Real-Time Fleet & Cargo Tracking",
                         value: "We provide IoT-enabled tracking systems that deliver up-to-the-minute insights into vehicle locations, cargo status, and delivery timelines.",
@@ -18,7 +18,7 @@ const Transportation = ()=>{
                     }, ]
         }
     const data_2 = {
-        title : `Understanding the unique challenges of MENA logistics—from regulatory hurdles to infrastructure gaps—KODEKS delivers tailored digital solutions that combine local know-how with global best practices.
+        title : `Understanding the unique challenges of MENA logistics—from regulatory hurdles to infrastructure gaps—INTELLECTRA delivers tailored digital solutions that combine local know-how with global best practices.
             We help transportation providers modernize efficiently, reduce emissions, and ensure compliance with both international and regional transportation standards.`,
         // subTitle : "Our experience",
         // children : [{

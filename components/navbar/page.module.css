@@ -132,4 +132,7 @@
     .containerScrolled ul.openMenu{
         top: 65px;
     }
+    .container,.containerScrolled{
+        padding: 20px 0;
+    }
 }

@@ -10,10 +10,12 @@
 .container h1{
     color: var(--main-color);
     font-weight: 600;
+    font-family: var(--raleway);
 }
 .container p{
     color: var(--temp-color);
     font-size: var(--font-size-s);
+    font-family: var(--farsan);
 }
 .content{
     position: relative;
@@ -55,9 +57,10 @@
     color: var(--main-color);
     font-weight: 600;
     text-transform: capitalize;
+    font-family: var(--raleway);
 }
 .firstSectionCard p{
-        font-size: var(--font-size-s);
+        font-size: var(--font-size-xs);
 }
 .firstSectionCard:hover{
     transform: translateY(-5px);

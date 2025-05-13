@@ -8,8 +8,8 @@
 // }): Metadata {
 //   const name = decodeURIComponent(params.slug.replace(/-/g, " ").replace(/%26/g, " & ").toLowerCase());
 //   return {
-//     title: `${name} | Industry | Kodeks`,
-//     description: `Explore digital solutions and insights for the ${name} sub-industry with KODEKS.`,
+//     title: `${name} | Industry | INTELLECTRA`,
+//     description: `Explore digital solutions and insights for the ${name} sub-industry with INTELLECTRA.`,
 //   };
 // }
 

@@ -68,3 +68,6 @@
 .card span:hover::after{
     width: 50%;
 }
+.containerBlocks h3{
+    font-family: var(--raleway);
+}

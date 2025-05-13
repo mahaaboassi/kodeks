@@ -2,7 +2,7 @@ import Style from "../page.module.css"
 
 const Government = ()=>{
     const data = {
-        title : 'In an era of increasing digital threats, security is non-negotiable. KODEKS provides.',
+        title : 'In an era of increasing digital threats, security is non-negotiable. INTELLECTRA provides.',
         children : [{
                         title : "Smart Public Infrastructure",
                         value: "We enable digital upgrades across government systems—automating workflows, digitizing records, and ensuring service continuity at scale.",
@@ -18,7 +18,7 @@ const Government = ()=>{
                     }, ]
         }
     const data_2 = {
-        title : `With a deep understanding of public sector challenges in the MENA region and beyond, KODEKS delivers tailored digital strategies that address operational gaps, security mandates, and policy reforms.
+        title : `With a deep understanding of public sector challenges in the MENA region and beyond, INTELLECTRA delivers tailored digital strategies that address operational gaps, security mandates, and policy reforms.
         We help governments achieve transparency, service delivery excellence, and greater digital accessibility—ensuring no citizen is left behind.`,
         // subTitle : "Our experience",
         // children : [{

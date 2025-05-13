@@ -15,8 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "IT and business consulting services | Kodeks",
-  description: "Kodeks delivers innovative ICT solutions that combine human insight with advanced technology to drive digital transformation. We help businesses enhance efficiency, foster innovation, and maximize ROI through tailored, results-focused strategies.",
+  title: "IT and business consulting services | INTELLECTRA",
+  description: "INTELLECTRA delivers innovative ICT solutions that combine human insight with advanced technology to drive digital transformation. We help businesses enhance efficiency, foster innovation, and maximize ROI through tailored, results-focused strategies.",
 };
 
 export default function RootLayout({
@@ -26,7 +26,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <link rel="icon" type="image/svg+xml" href="/vercel.svg" />
+      <link rel="icon" type="image/svg+xml" href="/logo_192_brand.png" />
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

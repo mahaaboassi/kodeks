@@ -8,7 +8,7 @@ const Blogs = ()=>{
         description: "Artificial Intelligence is transforming industries by automating tasks, enhancing decision-making, and personalizing customer experiences. Learn how businesses are leveraging AI for growth and efficiency.",
         image: "/ai.jpg",
         date: "2025-02-25",
-        author: "Kodeks admin",
+        author: "INTELLECTRA admin",
         hashtag : "#AI"
     },
     {
@@ -17,7 +17,7 @@ const Blogs = ()=>{
         description: "Cloud computing is evolving rapidly, with trends like multi-cloud strategies, serverless computing, and AI-driven cloud services shaping the industry. Discover what the future holds for cloud technology.",
         image: "/cloud.jpg",
         date: "2025-02-25",
-        author: "Kodeks admin",
+        author: "INTELLECTRA admin",
         hashtag : "#Cloud Computing"
     },
     {
@@ -26,7 +26,7 @@ const Blogs = ()=>{
         description: "In today's competitive market, technology services play a crucial role in digital transformation. From cybersecurity to IT consulting, explore why businesses must adapt to modern technology solutions.",
         image: "/technologies.jpg",
         date: "2025-02-25",
-        author: "Kodeks admin",
+        author: "INTELLECTRA admin",
         hashtag : "#Technology Services"
     }]
 

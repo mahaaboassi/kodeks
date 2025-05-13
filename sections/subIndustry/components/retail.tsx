@@ -2,7 +2,7 @@ import Style from "../page.module.css"
 
 const Retail = ()=>{
     const data = {
-        title : 'In an era of increasing digital threats, security is non-negotiable. KODEKS provides.',
+        title : 'In an era of increasing digital threats, security is non-negotiable. INTELLECTRA provides.',
         children : [{
                         title : "Omnichannel Retail Platforms",
                         value: "We build integrated systems that unify physical and digital storefronts, enabling smooth, consistent interactions across web, mobile, and in-store touchpoints.",
@@ -18,7 +18,7 @@ const Retail = ()=>{
                     }, ]
         }
     const data_2 = {
-        title : `With insights into evolving MENA retail trends and consumer behavior, KODEKS supports retailers in building adaptive, scalable digital ecosystems.
+        title : `With insights into evolving MENA retail trends and consumer behavior, INTELLECTRA supports retailers in building adaptive, scalable digital ecosystems.
         Whether deploying localized e-commerce platforms, managing real-time customer data, or enabling digital in-store enhancements, we help retailers deliver standout experiences across channels.`,
         // subTitle : "Our experience",
         // children : [{

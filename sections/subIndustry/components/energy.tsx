@@ -2,7 +2,7 @@ import Style from "../page.module.css"
 
 const Energy = ()=>{
     const data = {
-        title : 'In an era of increasing digital threats, security is non-negotiable. KODEKS provides.',
+        title : 'In an era of increasing digital threats, security is non-negotiable. INTELLECTRA provides.',
         children : [{
                         title : "Intelligent Infrastructure",
                         value: "We enable energy firms to digitize and automate legacy systems, improving reliability, reducing operational costs, and supporting smart energy distribution.",
@@ -19,7 +19,7 @@ const Energy = ()=>{
         }
     const data_2 = {
         title : `Our consultants bring a strong mix of technical expertise and regional insight to energy projects across the MENA region and beyond.
-        Whether supporting smart grid implementation, optimizing renewables integration, or navigating regulatory reforms, KODEKS empowers energy companies to lead the future of clean, connected, and compliant operations.`,
+        Whether supporting smart grid implementation, optimizing renewables integration, or navigating regulatory reforms, INTELLECTRA empowers energy companies to lead the future of clean, connected, and compliant operations.`,
         // subTitle : "Our experience",
         // children : [{
         //     value : "",

@@ -8,8 +8,8 @@ import SubSolution from "@/sections/subSolution/page";
 //     .toLowerCase();
 
 //   return {
-//     title: `${name} | Solutions | KODEKS`,
-//     description: `Explore digital solutions and insights for the ${name} sub-solution with KODEKS.`,
+//     title: `${name} | Solutions | INTELLECTRA`,
+//     description: `Explore digital solutions and insights for the ${name} sub-solution with INTELLECTRA.`,
 //   };
 // }
 

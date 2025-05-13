@@ -9,14 +9,14 @@ const Introduction = ()=>{
                 </div>
                 <p>
                     For over 30 years, we have built a reputation for excellence, reliability, and trust. The continued confidence of our clients is a testament to our technical expertise, forward-thinking strategies, and unwavering commitment to delivering transformative solutions. 
-                    At KODEKS, technology is not just an enabler—it’s a catalyst for progress.
+                    At INTELLECTRA, technology is not just an enabler—it’s a catalyst for progress.
 
                 </p>
                 
             </div>
             <div className={`md:col-span-2`}>
                 <ul>
-                    <li className="p-3">At KODEKS, we empower businesses with cutting-edge Information & Communication Technologies (ICT) solutions, blending human expertise with the limitless possibilities of technology. Our focus is on delivering results-driven digital transformation that enhances operational efficiency, drives innovation, and maximizes return on investment (ROI).</li>
+                    <li className="p-3">At INTELLECTRA, we empower businesses with cutting-edge Information & Communication Technologies (ICT) solutions, blending human expertise with the limitless possibilities of technology. Our focus is on delivering results-driven digital transformation that enhances operational efficiency, drives innovation, and maximizes return on investment (ROI).</li>
                     <li className="p-3">With a presence across multiple industries and global markets, we provide scalable, sustainable, and future-ready ICT services that combine global best practices with localized expertise. Our approach is insights-driven and outcome-focused, ensuring that every solution we implement contributes to long-term business success.</li>
                     <li className="p-3">As your trusted technology partner, we collaborate closely with clients to ensure that technology serves as a driving force behind business growth, efficiency, and societal impact. By embedding ourselves within local markets, we foster lasting relationships built on trust, expertise, and shared success.</li>
                     <li className="p-3">Our global network of skilled professionals brings together the right talent, innovation, and strategic insights to every engagement, ensuring that businesses thrive in an ever-evolving digital landscape. Using a consultative and collaborative approach, we help organizations achieve measurable business outcomes, enhance mission-critical operations, and drive meaningful impact.</li>
