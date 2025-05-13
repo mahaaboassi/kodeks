@@ -1,4 +1,3 @@
-import { Metadata } from "next";
 import SubSolution from "@/sections/subSolution/page";
 
 // ✅ Correct metadata function
@@ -14,8 +13,13 @@ import SubSolution from "@/sections/subSolution/page";
 //   };
 // }
 
-// ✅ Correct page function
-export default function SubPages({ params }: { params: { slug: string } }) {
-  const name = params.slug.replace(/%26/g, "&").toLowerCase();
-  return <SubSolution name={name} slug={params.slug} />;
+
+export default async function Page({
+  params,
+}: {
+  params: Promise<{ slug: string }>
+}) {
+  const { slug } = await params
+  const name = slug.replace(/-/g, " ").replace(/%26/g, " & ").toLowerCase()
+  return <SubSolution name={name} slug={slug} />
 }
