@@ -11,7 +11,7 @@ export const solutionData = {
             "AI Infrastructure & Scalable Deployment"
         ],
         link : "/aboutUs/solutions/artificial-intelligence-(ai)",
-        srcImg : "/bank.webp",
+        srcImg : "/ai.webp",
         finalDescription : ""
     },
 
@@ -30,7 +30,7 @@ export const solutionData = {
             "Immersive Digital Twins for Business Optimization"
         ],
         link : "/aboutUs/solutions/augmented-reality-(ar)",
-        srcImg : "/bank.webp",
+        srcImg : "/ar.webp",
         finalDescription : ""
     },
     {
@@ -49,7 +49,7 @@ export const solutionData = {
             "Cloud-Native Development & DevSecOps Integration"
         ],
         link : "/aboutUs/solutions/cloud-&-hybrid-it",
-        srcImg : "/bank.webp",
+        srcImg : "/it.webp",
         finalDescription : ""
     },
     {
@@ -68,7 +68,7 @@ export const solutionData = {
             "Cloud & Network Security Solutions"
         ],
         link : "/aboutUs/solutions/cybersecurity",
-        srcImg : "/bank.webp",
+        srcImg : "/cybersecurity.webp",
         finalDescription : ""
     },
     {
@@ -87,7 +87,7 @@ export const solutionData = {
             "Disaster Resilient & Fault-Tolerant Infrastructure – Built for reliability and business continuity."
         ],
         link : "/aboutUs/solutions/data-center",
-        srcImg : "/bank.webp",
+        srcImg : "/data-center.webp",
         finalDescription : ""
     },
     {
@@ -105,7 +105,7 @@ export const solutionData = {
             "Sustainability Reporting & Regulatory Compliance"
         ],
         link : "/aboutUs/solutions/digital-transformation",
-        srcImg : "/bank.webp",
+        srcImg : "/digital.webp",
         finalDescription : ""
     },
     {
@@ -122,7 +122,7 @@ export const solutionData = {
             "AI-Powered IoT Insights & Data Processing"
         ],
         link : "/aboutUs/solutions/internet-of-things-(iot)",
-        srcImg : "/bank.webp",
+        srcImg : "/iot.webp",
         finalDescription : ""
     },
     {
@@ -139,7 +139,7 @@ export const solutionData = {
             "IT Governance & Compliance Standards"
         ],
         link : "/aboutUs/solutions/infrastructure",
-        srcImg : "/bank.webp",
+        srcImg : "/inf.webp",
         finalDescription : ""
     },
     {
@@ -155,7 +155,7 @@ export const solutionData = {
             "Automated Compliance & Risk Management"
         ],
         link : "/aboutUs/solutions/intelligent-automation",
-        srcImg : "/bank.webp",
+        srcImg : "/intelligent.webp",
         finalDescription : ""
     },
     {
@@ -171,7 +171,7 @@ export const solutionData = {
             "Employee Experience & Digital Workplace Transformation"
         ],
         link : "/aboutUs/solutions/workplace-modernization",
-        srcImg : "/bank.webp",
+        srcImg : "/workplace.webp",
         finalDescription : ""
     }
 ]
